@@ -18,7 +18,7 @@ n_trees = 100
 n_samples = X_train.shape[0]
 trees = []
 
-# Train n_trees Decision Trees
+
 # Train n_trees Decision Trees
 for _ in range(n_trees):
     indices = np.random.choice(n_samples, n_samples, replace=True)
